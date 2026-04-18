@@ -77,8 +77,8 @@ npm run dev
 
 ### 5) Initial Sign-In (First Time)
 
-- User ID (Email): admin@realestatecrm.local
-- Password: Admin@12345
+- User ID (Email): shivam.runcheck+4@example.com
+- Password: Password123
 
 Important:
 - This project does not create a default user automatically.
