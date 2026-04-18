@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 42 38% 96%;
+  --foreground: 210 38% 16%;
+  --card: 40 33% 99%;
+  --card-foreground: 210 38% 16%;
+  --primary: 200 87% 37%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 28 88% 60%;
+  --secondary-foreground: 210 38% 16%;
+  --muted: 35 40% 92%;
+  --muted-foreground: 210 22% 38%;
+  --border: 35 24% 82%;
+  --input: 35 24% 82%;
+  --ring: 200 87% 37%;
+  --danger: 0 72% 52%;
+  --danger-foreground: 0 0% 100%;
+  --radius: 0.75rem;
+}
+
+* {
+  @apply border-border;
+}
+
+body {
+  @apply min-h-screen bg-background text-foreground antialiased;
+  background-image: radial-gradient(circle at 10% 10%, rgba(249, 165, 24, 0.13), transparent 35%),
+    radial-gradient(circle at 90% 20%, rgba(14, 116, 144, 0.18), transparent 38%),
+    linear-gradient(160deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+
+#root {
+  @apply min-h-screen;
+}

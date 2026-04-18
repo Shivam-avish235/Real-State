@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+backend/dist/
+frontend/dist/
+*.tsbuildinfo
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+
+# Logs and temporary files
+*.log
+frontend/.phase4_frontend_build.log
+frontend/build_log.txt
+frontend/build_results.txt
+
+# OS/editor files
+.DS_Store
+Thumbs.db
